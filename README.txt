@@ -11,3 +11,5 @@ SVG-DATA-PARSE:
 3. Copy the resulting code that's generated below into the map file you've linked to.
 
 Look in js/scripts.js and copy the examples for the usIA_en map if you want to add another one.
+
+This could be SO much better but it worked as a quick fix.

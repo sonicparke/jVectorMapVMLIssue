@@ -1,0 +1,47 @@
+.vmapContainer {
+	position: relative;
+	margin: 50px auto;
+	width: 549px;
+	height: 440px;
+}
+.vmap {
+	margin: 0;
+	width: 549px;
+	height: 440px;
+}
+
+#dialog {
+	display: none;
+	color: #272727;
+}
+
+.ui-dialog-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.close {
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #292929;
+    padding: 3px;
+    color: white;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    line-height: 10px;
+    text-align: center;
+    text-decoration:none;
+}
+
+h2#title {
+	display: none;
+	margin: 0 auto;
+	width: 50%;
+	font-size: 14px;
+}

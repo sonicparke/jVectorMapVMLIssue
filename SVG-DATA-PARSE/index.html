@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>SVG Map File Maker</title>
+    
+    
+    <style>
+	    textarea#source {
+	    	display: block; 
+	    	height: 200px;
+	    	width: 100%; 
+	    }
+    </style>
+  </head>
+  <body>
+  	
+  	<form>
+  		<fieldset>
+        <label for="mapName">Map Name:</label><input type="text" name="mapName" id="mapName"/><br/><br/>
+  			 <label for="svgCode">SVG Code:</label><textarea name="svgCode" id="source" ></textarea>
+  			<button>Make Map File</button>
+  		</fieldset>
+  	</form>
+
+  	<div id="output">
+		 		
+  	</div>
+
+  	
+
+  		
+
+  	<script id="outputTemplate" type="text/x-jQuery-tmpl">
+        <div class='{{cssclass}}'>{{text}}</div>
+    </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../js/handlebars-1.0.0.beta.6.js"></script>
+	<script src="svgDataParse.js" type="text/javascript"></script>
+    
+	<script type="text/javascript">
+	$(document).ready(function() {
+
+	});
+	</script>
+  </body>
+</html>
